@@ -1,0 +1,41 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: repeat(4, 1fr);
+  margin: 0;
+  grid-template-areas: "head head" "navbar main" "navbar main" "footer footer";
+}
+body .header {
+  background-color: rgb(213, 233, 250);
+  grid-area: head;
+  display: inline-flex;
+}
+body .header img {
+  display: inline-block;
+}
+body .header h1 {
+  display: inline-block;
+  margin-left: 5px;
+}
+body .header h1 a {
+  text-decoration: none;
+  color: rgb(10, 0, 77);
+  font-family: "IBM Plex Serif", serif;
+}
+body .header h1 a :visited {
+  color: rgb(10, 0, 77);
+}
+body .header h1 a a:hover h1 {
+  background-color: rgb(76, 78, 94);
+}
+body .navbar {
+  grid-area: navbar;
+}
+body .main {
+  grid-area: main;
+}
+body .footer {
+  grid-area: footer;
+}
+
+/*# sourceMappingURL=output.css.map */
