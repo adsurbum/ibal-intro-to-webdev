@@ -4,6 +4,8 @@
         <title>
             Main Page
         </title>
+
+        <link rel="icon" type="image/x-icon" href="../photos/fav4.ico">
         <link rel="stylesheet" href="output.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,14 +16,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta charset="UTF-8">
     </head>
     
     <body>
         <header class="header">
-            <img src="./images/logo2.png">
-            <h1 id="headline" >
-                <a id="home" href="./index.html">Inbal Kimhi</a>
-            </h1>
+            <div>
+                <img src="./images/logo2.png">
+                <h1 id="headline" >
+                    <a id="home" href="./index.html">Inbal Kimhi</a>
+                </h1>
+            </div>
         </header>
 
         <nav class="navbar">
@@ -95,7 +101,7 @@
                 
                 <div id="second-part">
                     <img class="image" src="../photos/The_Best_of_Me_poster.jpg">
-                    <a id="m" class="image" href = https://www.imdb.com/title/tt1972779/?ref_=nv_sr_srsg_3  target=”_blank” class="content">The best of me Watch the movie</a>
+                    <a id="l" class="image" href = https://www.imdb.com/title/tt1972779/?ref_=nv_sr_srsg_3  target=”_blank” class="content">The best of me Watch the movie</a>
                 </div>
 
             </section>
@@ -116,6 +122,9 @@
                     </h2>
                     <p >
                     Snowfall and safety. Unbroken wilderness and environmental responsibility. Lapland in winter is like nowhere else on Earth. The boundless nature and experiences exclusive to the Arctic like the Northern Lights I personally got to see or just the fun of snowballs, reindeer and Santa Claus's villge. I got to celebrate my 13th birthday there and its definetly a trip to remember!
+                    <br>
+                    <br>
+                    <a href=https://www.google.com/maps/place/Lapland,+Finland/@67.6307625,20.8032921,6z/data=!3m1!4b1!4m6!3m5!1s0x45d30036254ca145:0xcedc4eb30d91aca1!8m2!3d67.9222304!4d26.5046438!16zL20vMDFuZHdr?hl=en  target=”_blank”>find lapland on google maps</a>
                     </p>
                 </div>
                 
@@ -157,13 +166,13 @@
                         </p>
 
                         <lable>Full Name: 
-                            <input type="text" name="Name" required>
+                            <input type="text" name="Name" pattern="[\u05D0-\u05EAa-zA-Z]+" required>
                         </lable>
                         <lable>Phone Number:
                             <input type="tel" name="Number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
                         </lable>
                         <lable>Email:
-                            <input type="email" name="Email" required>
+                            <input type="email" name="Email"  required>
                         </lable>
                         <lable>Date Of Birth:
                             <input type="date" name="D.O.B" value="2000-01-01" max="2050-12-31" min="1900-01-01">
