@@ -383,6 +383,70 @@ html body .footer div a {
   html body .header {
     background-color: #361f40;
   }
+  html body .header div #headline #home {
+    color: lavender;
+  }
+  html body .header div #headline #home:visited {
+    color: lavender;
+  }
+  html body .header div #headline #home:hover {
+    background-color: rgb(69, 70, 70);
+  }
+  html body .navbar {
+    background-color: rgb(66, 44, 85);
+  }
+  html body .navbar ul {
+    color: lavender;
+  }
+  html body .navbar ul :nth-child(even) {
+    background-color: rgb(74, 59, 88);
+  }
+  html body .navbar li a {
+    color: lavender;
+  }
+  html body .main #m {
+    color: lavender;
+  }
+  html body .main #movie {
+    color: lavender;
+  }
+  html body .main #place {
+    color: lavender;
+  }
+  html body .main form {
+    color: lavender;
+  }
+  html body .main form #p-information #details lable input {
+    background-color: #524e61;
+    color: lavender;
+  }
+  html body .main form #p-information #feedback {
+    background-color: #524e61;
+    color: lavender;
+  }
+  html body .main form #p-information #feedback #massagearea textarea {
+    background-color: #524e61;
+    color: lavender;
+  }
+  html body .main form #p-information #feedback .r lable input {
+    background-color: #524e61;
+    color: lavender;
+  }
+  html body .main form #p-information #feedback #web select {
+    background-color: #524e61;
+    color: lavender;
+  }
+  html body .main form #p-information #buttons .button {
+    background-color: #524e61;
+    color: lavender;
+  }
+  html body .footer {
+    background-color: #361f40;
+    color: lavender;
+  }
+  html body .footer div a {
+    color: lavender;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */

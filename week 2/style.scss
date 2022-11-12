@@ -462,11 +462,120 @@ body{
 
         body{
             background-color: #524e61;
-
+            
             .header{
                 background-color: #361f40;
+                div{
+                    #headline{
+                        #home{
+                            color: lavender;
+                            &:visited{
+                                color:lavender;
+                            }
+                            &:hover{
+                                background-color: rgb(69, 70, 70);
+                                
+                            }
+                        }
+                    }
+                }
+
             }
 
+
+            .navbar{
+                background-color: rgb(66, 44, 85);
+                ul{ 
+                    color: lavender;
+                    :nth-child(even){
+                        background-color: rgb(74, 59, 88);}
+                    }
+        
+                    li{
+                        a{ 
+                            color: lavender;   
+                         }
+                      }
+                 }
+
+                 .main{
+
+                    #m{
+                        color: lavender
+                    }
+            
+                    #movie{
+                        color: lavender
+                    }
+                    #place{
+                        color: lavender
+                    }
+            
+                    form{
+                        color: lavender;
+                       
+                        
+                        #p-information{
+ 
+                            #details{
+                                lable{
+                                    input{
+                                        background-color: #524e61;
+                                        color: lavender;
+                                    }
+
+                            }
+                        }
+            
+                            #feedback{
+                                background-color: #524e61;
+                                color: lavender;
+
+                                #massagearea{
+                                    textarea{
+                                        background-color: #524e61;
+                                        color: lavender;    
+                                    }
+            
+                                }
+                                .r{
+                                    lable{
+                                        input{
+                                            background-color: #524e61;
+                                            color: lavender;        
+                                    }
+                                    }
+                                }
+            
+                                #web{
+                                    select{
+                                        background-color: #524e61;
+                                        color: lavender;
+    
+                                    } 
+                                }
+                                
+                            }
+                            #buttons{
+
+                                .button{
+                                    background-color: #524e61;
+                                    color: lavender;
+                                }
+                            }
+            
+                        }
+                    }
+                }
+            .footer{
+                background-color: #361f40;
+                color: lavender;
+                div{
+                    a{
+                        color: lavender;
+                    }
+                }
+            }
         }
     }
 }
