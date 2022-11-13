@@ -424,7 +424,8 @@ html body .footer div a {
     background-color: #524e61;
     color: lavender;
   }
-  html body .main form #p-information #feedback #massagearea textarea {
+  html body .main form #p-information #feedback #messagearea #comment {
+    border-color: lavender;
     background-color: #524e61;
     color: lavender;
   }
